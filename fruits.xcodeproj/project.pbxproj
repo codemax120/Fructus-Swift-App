@@ -16,6 +16,7 @@
 		C45EDEC328D04EA3007E449A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45EDEC228D04EA3007E449A /* OnboardingView.swift */; };
 		C45EDEC628D43AF2007E449A /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45EDEC528D43AF2007E449A /* FruitModel.swift */; };
 		C45EDEC928D43BDE007E449A /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45EDEC828D43BDE007E449A /* FruitData.swift */; };
+		C45EDECB28D673A3007E449A /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45EDECA28D673A3007E449A /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C45EDEC228D04EA3007E449A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C45EDEC528D43AF2007E449A /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		C45EDEC828D43BDE007E449A /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		C45EDECA28D673A3007E449A /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				C45EDEBE28D032FE007E449A /* FruitCardView.swift */,
 				C45EDEC028D03872007E449A /* StartButton.swift */,
+				C45EDECA28D673A3007E449A /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				C45EDEC928D43BDE007E449A /* FruitData.swift in Sources */,
 				C45EDEBF28D032FE007E449A /* FruitCardView.swift in Sources */,
+				C45EDECB28D673A3007E449A /* FruitRowView.swift in Sources */,
 				C45EDEB128D0228D007E449A /* ContentView.swift in Sources */,
 				C45EDEC128D03872007E449A /* StartButton.swift in Sources */,
 				C45EDEC328D04EA3007E449A /* OnboardingView.swift in Sources */,
