@@ -39,6 +39,7 @@ struct FruitCardView: View {
                     .frame(maxWidth: 480)
                 // BUTTON: - START
                 StartButtonView()
+                    .padding(.bottom, 80)
                 
             } //: VStack
             .onAppear {

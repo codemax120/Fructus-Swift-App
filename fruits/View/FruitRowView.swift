@@ -35,7 +35,6 @@ struct FruitRowView: View {
                     .fontWeight(.bold)
                 Text(fruit.headline)
                     .font(.caption)
-                    .foregroundColor(Color.secondary)
             }
             
         } //: HSTACK
@@ -46,8 +45,14 @@ struct FruitRowView: View {
 
 struct FruitRowView_Previews: PreviewProvider {
     static var previews: some View {
-        FruitRowView(fruit: fruitsData[0])
-            .previewLayout(.sizeThatFits)
+        Group {
+            FruitRowView(fruit: fruitsData[0])
+                .previewLayout(.sizeThatFits)
             .padding()
+            FruitRowView(fruit: fruitsData[0])
+                .preferredColorScheme(.dark)
+                .previewLayout(.sizeThatFits)
+                .padding()
+        }
     }
 }
